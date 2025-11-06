@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\borge\\Skole\\Kodehode\\CLI prosjekt\\MiniBash\\MiniBash.csproj": {}
+    "C:\\Users\\Instruktor.P-02506\\Documents\\Kurs\\Oppgaver\\CSharpBasic\\OppgaveGruppeGit\\MiniBash\\MiniBash.csproj": {}
   },
   "projects": {
-    "C:\\Users\\borge\\Skole\\Kodehode\\CLI prosjekt\\MiniBash\\MiniBash.csproj": {
+    "C:\\Users\\Instruktor.P-02506\\Documents\\Kurs\\Oppgaver\\CSharpBasic\\OppgaveGruppeGit\\MiniBash\\MiniBash.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borge\\Skole\\Kodehode\\CLI prosjekt\\MiniBash\\MiniBash.csproj",
+        "projectUniqueName": "C:\\Users\\Instruktor.P-02506\\Documents\\Kurs\\Oppgaver\\CSharpBasic\\OppgaveGruppeGit\\MiniBash\\MiniBash.csproj",
         "projectName": "MiniBash",
-        "projectPath": "C:\\Users\\borge\\Skole\\Kodehode\\CLI prosjekt\\MiniBash\\MiniBash.csproj",
-        "packagesPath": "C:\\Users\\borge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borge\\Skole\\Kodehode\\CLI prosjekt\\MiniBash\\obj\\",
+        "projectPath": "C:\\Users\\Instruktor.P-02506\\Documents\\Kurs\\Oppgaver\\CSharpBasic\\OppgaveGruppeGit\\MiniBash\\MiniBash.csproj",
+        "packagesPath": "C:\\Users\\Instruktor.P-02506\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Instruktor.P-02506\\Documents\\Kurs\\Oppgaver\\CSharpBasic\\OppgaveGruppeGit\\MiniBash\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\borge\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Instruktor.P-02506\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
