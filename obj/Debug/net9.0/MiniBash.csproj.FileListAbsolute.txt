@@ -1,0 +1,14 @@
+C:\Users\borge\Skole\Kodehode\CLI prosjekt\MiniBash\bin\Debug\net9.0\MiniBash.exe
+C:\Users\borge\Skole\Kodehode\CLI prosjekt\MiniBash\bin\Debug\net9.0\MiniBash.deps.json
+C:\Users\borge\Skole\Kodehode\CLI prosjekt\MiniBash\bin\Debug\net9.0\MiniBash.runtimeconfig.json
+C:\Users\borge\Skole\Kodehode\CLI prosjekt\MiniBash\bin\Debug\net9.0\MiniBash.dll
+C:\Users\borge\Skole\Kodehode\CLI prosjekt\MiniBash\bin\Debug\net9.0\MiniBash.pdb
+C:\Users\borge\Skole\Kodehode\CLI prosjekt\MiniBash\obj\Debug\net9.0\MiniBash.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\borge\Skole\Kodehode\CLI prosjekt\MiniBash\obj\Debug\net9.0\MiniBash.AssemblyInfoInputs.cache
+C:\Users\borge\Skole\Kodehode\CLI prosjekt\MiniBash\obj\Debug\net9.0\MiniBash.AssemblyInfo.cs
+C:\Users\borge\Skole\Kodehode\CLI prosjekt\MiniBash\obj\Debug\net9.0\MiniBash.csproj.CoreCompileInputs.cache
+C:\Users\borge\Skole\Kodehode\CLI prosjekt\MiniBash\obj\Debug\net9.0\MiniBash.dll
+C:\Users\borge\Skole\Kodehode\CLI prosjekt\MiniBash\obj\Debug\net9.0\refint\MiniBash.dll
+C:\Users\borge\Skole\Kodehode\CLI prosjekt\MiniBash\obj\Debug\net9.0\MiniBash.pdb
+C:\Users\borge\Skole\Kodehode\CLI prosjekt\MiniBash\obj\Debug\net9.0\MiniBash.genruntimeconfig.cache
+C:\Users\borge\Skole\Kodehode\CLI prosjekt\MiniBash\obj\Debug\net9.0\ref\MiniBash.dll
