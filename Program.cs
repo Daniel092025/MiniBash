@@ -37,6 +37,11 @@ class Program
                 Pwd.Run();
                 break;
 
+            case "ls":
+                string? path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments); // How should we gather the path? User input? 
+                Ls.List(path);
+                break;
+
             default:
                 Console.WriteLine($"Ukjent kommando: {command}");
                 break;
