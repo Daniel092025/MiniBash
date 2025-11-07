@@ -1,30 +1,31 @@
-namespace MiniBash.Models;
-
-class CAT
+namespace MiniBash.Models
 {
-    static void Main(string[] args)
+    class CAT
     {
-        if (args.Length == 0)
+        public static void Run(string[] args)
         {
-            // Leser direkte fra tastatur (stdin)
-            string input;
-            while ((input = Console.ReadLine()) != null)
+            if (args.Length == 0)
             {
-                Console.WriteLine(input);
-            }
-        }
-        else
-        {
-            foreach (var file in args)
-            {
-                if (File.Exists(file))
+                // Leser direkte fra tastatur (stdin)
+                string? input;
+                while ((input = Console.ReadLine()) != null)
                 {
-                    string content = File.ReadAllText(file);
-                    Console.Write(content);
+                    Console.WriteLine(input);
                 }
-                else
+            }
+            else
+            {
+                foreach (var file in args)
                 {
-                    Console.Error.WriteLine($"cat: {file}: No such file or directory");
+                    if (File.Exists(file))
+                    {
+                        string content = File.ReadAllText(file);
+                        Console.Write(content);
+                    }
+                    else
+                    {
+                        Console.Error.WriteLine($"cat: {file}: No such file or directory");
+                    }
                 }
             }
         }

@@ -2,7 +2,7 @@ namespace MiniBash.Models;
 
 class CP
 {
-    static void Main(string[] args)
+    public static void Run(string[] args)
     {
         if (args.Length != 2)
         {
