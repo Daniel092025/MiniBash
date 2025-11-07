@@ -12,3 +12,4 @@ C:\Users\borge\Skole\Kodehode\CLI prosjekt\MiniBash\obj\Debug\net9.0\refint\Mini
 C:\Users\borge\Skole\Kodehode\CLI prosjekt\MiniBash\obj\Debug\net9.0\MiniBash.pdb
 C:\Users\borge\Skole\Kodehode\CLI prosjekt\MiniBash\obj\Debug\net9.0\MiniBash.genruntimeconfig.cache
 C:\Users\borge\Skole\Kodehode\CLI prosjekt\MiniBash\obj\Debug\net9.0\ref\MiniBash.dll
+C:\Users\borge\Skole\Kodehode\CLI prosjekt\minibash\obj\Debug\net9.0\MiniBash.sourcelink.json
