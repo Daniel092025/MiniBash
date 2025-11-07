@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Instruktor.P-02466.000\\Desktop\\gruppeoppgave\\MiniBash\\MiniBash.csproj": {}
+    "C:\\Users\\Instruktor.P-02506\\Documents\\Kurs\\Oppgaver\\CSharpBasic\\OppgaveGruppeGit\\MiniBash\\MiniBash.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Instruktor.P-02466.000\\Desktop\\gruppeoppgave\\MiniBash\\MiniBash.csproj": {
+    "C:\\Users\\Instruktor.P-02506\\Documents\\Kurs\\Oppgaver\\CSharpBasic\\OppgaveGruppeGit\\MiniBash\\MiniBash.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Instruktor.P-02466.000\\Desktop\\gruppeoppgave\\MiniBash\\MiniBash.csproj",
+        "projectUniqueName": "C:\\Users\\Instruktor.P-02506\\Documents\\Kurs\\Oppgaver\\CSharpBasic\\OppgaveGruppeGit\\MiniBash\\MiniBash.csproj",
         "projectName": "MiniBash",
-        "projectPath": "C:\\Users\\Instruktor.P-02466.000\\Desktop\\gruppeoppgave\\MiniBash\\MiniBash.csproj",
-        "packagesPath": "C:\\Users\\Instruktor.P-02466.000\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Instruktor.P-02466.000\\Desktop\\gruppeoppgave\\MiniBash\\obj\\",
+        "projectPath": "C:\\Users\\Instruktor.P-02506\\Documents\\Kurs\\Oppgaver\\CSharpBasic\\OppgaveGruppeGit\\MiniBash\\MiniBash.csproj",
+        "packagesPath": "C:\\Users\\Instruktor.P-02506\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Instruktor.P-02506\\Documents\\Kurs\\Oppgaver\\CSharpBasic\\OppgaveGruppeGit\\MiniBash\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Instruktor.P-02466.000\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Instruktor.P-02506\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
