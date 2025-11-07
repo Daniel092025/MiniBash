@@ -1,9 +1,17 @@
-namespace MiniBash.Models;
-
-public class Echo
+namespace MiniBash.Models
 {
-     public static void Repeat(string text)
+    public class Echo
     {
-        Console.WriteLine(text);
+        public static void Repeat(string text)
+        {
+            if (!string.IsNullOrEmpty(text))
+            {
+                Console.WriteLine(text);
+            }
+            else
+            {
+                Console.WriteLine("No argument was included");
+            }
+        }
     }
 }
