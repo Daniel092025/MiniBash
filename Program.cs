@@ -26,6 +26,8 @@ class Program
         string[] parts = input.Split(' ', 2);
         string command = parts[0];
         string args = parts.Length > 1 ? parts[1] : "";
+        string[] commandArgs = args.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+        string[] argsArray = args.Length > 0 ? args.Split(' ') : Array.Empty<string>();
 
         switch (command)
         {
@@ -37,9 +39,12 @@ class Program
                 Pwd.Run();
                 break;
 
-            case "ls":
-                string? path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments); // How should we gather the path? User input? 
-                Ls.List(path);
+            case "cat":
+                CAT.Run(commandArgs);
+                break;
+
+            case "cp":
+                CP.Run(commandArgs);
                 break;
 
             default:
