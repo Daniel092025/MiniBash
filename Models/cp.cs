@@ -1,7 +1,6 @@
-using System;
-using System.IO;
+namespace MiniBash.Models;
 
-class CopyCommand
+class CP
 {
     static void Main(string[] args)
     {

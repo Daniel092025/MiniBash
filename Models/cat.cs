@@ -1,7 +1,6 @@
-using System;
-using System.IO;
+namespace MiniBash.Models;
 
-class Cat
+class CAT
 {
     static void Main(string[] args)
     {
