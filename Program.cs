@@ -60,6 +60,14 @@ class Program
                 Ls.List(path);
                 break;
 
+            case "head":
+                HEAD.Run(commandArgs);
+                break;
+     
+            case "tail":
+                TAIL.Run(commandArgs);
+                break;
+
             default:
                 Console.WriteLine($"Ukjent kommando: {command}");
                 break;
