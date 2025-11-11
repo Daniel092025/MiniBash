@@ -39,8 +39,16 @@ class Program
                 Pwd.Run();
                 break;
 
+            case "head":
+                HEAD.Run(commandArgs);
+                break;
+
             case "cat":
                 CAT.Run(commandArgs);
+                break;
+
+            case "tail":
+                TAIL.Run(commandArgs);
                 break;
 
             case "cp":

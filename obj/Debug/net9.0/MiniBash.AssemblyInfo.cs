@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniBash")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2f0cb59d11eabaa515dced0a877826656f25ce4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87f0175ec03a551dd979296fc930326d3d888e1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniBash")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniBash")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
