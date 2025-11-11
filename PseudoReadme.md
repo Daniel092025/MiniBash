@@ -100,5 +100,42 @@ Viser ett gitt antall linjer fra starten av en fil, her 10.
 string path = args[0];
             int linesToRead = 10; 
 ```
+Eller legge til flere linjer, feks head 20:
+```csharp
+ if (args.Length > 1 && int.TryParse(args[1], out int n))
+                linesToRead = n;
+```
+
+### tail
+Gjør det samme som head, men leser baklengs.
+```csharp
+ string? line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    if (lastLines.Count == linesToRead)
+                        lastLines.Dequeue(); //fjerner gamleste linje
+```
+
+# READme
+
+Vi laget ett enkelt CLI verktøy med en minimalistisk kommandolinje. Med kommandoene:
+- cat = Skriv ut innholdet i en fil
+- cp = kopier en fil til nytt sted eller navn
+- echo = ekkoer det du skriver i tillegg til echo
+- head = leser ett antall av de første linjene i en fil
+- tail = leser ett antall av de siste linjene i en fil
+- mv = flytt eller gi en fil ett nytt nav
+- pwd = viser hvordan "katalog" (mappe) man er i
+- ls = list ut alle filer og mapper i en katalog (mappe).
+- touch = opprett en ny fil
+- "exit" avslutte
+
+Man bruker programmet ved å kjøre "dotnet run" og deretter kommandoen man vil kjøre.
+For eksempel:
+> dotnet run
+
+> echo hello 
+
+> hello
 
 
