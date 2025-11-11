@@ -39,8 +39,16 @@ class Program
                 Pwd.Run();
                 break;
 
+            case "head":
+                HEAD.Run(commandArgs);
+                break;
+
             case "cat":
                 CAT.Run(commandArgs);
+                break;
+    // Test om dette fungerer 
+            case "tail":
+                TAIL.Run(commandArgs);
                 break;
 
             case "cp":
@@ -51,15 +59,6 @@ class Program
             string? path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments); // How should we gather the path? User input? 
                 Ls.List(path);
                 break;
-
-            case "head":
-                HEAD.Run(commandArgs);
-                break;
-     
-            case "tail":
-                TAIL.Run(commandArgs);
-                break;
-
             default:
                 Console.WriteLine($"Ukjent kommando: {command}");
                 break;
