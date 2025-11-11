@@ -46,7 +46,7 @@ class Program
             case "cat":
                 CAT.Run(commandArgs);
                 break;
-
+    // Test om dette fungerer 
             case "tail":
                 TAIL.Run(commandArgs);
                 break;
