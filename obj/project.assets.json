@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Instruktor.P-02506\\.nuget\\packages\\": {}
+    "C:\\Users\\borge\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Instruktor.P-02506\\Documents\\Kurs\\Oppgaver\\CSharpBasic\\OppgaveGruppeGit\\MiniBash\\MiniBash.csproj",
+      "projectUniqueName": "C:\\Users\\borge\\Skole\\Kodehode\\CLI prosjekt test\\MiniBash\\MiniBash.csproj",
       "projectName": "MiniBash",
-      "projectPath": "C:\\Users\\Instruktor.P-02506\\Documents\\Kurs\\Oppgaver\\CSharpBasic\\OppgaveGruppeGit\\MiniBash\\MiniBash.csproj",
-      "packagesPath": "C:\\Users\\Instruktor.P-02506\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Instruktor.P-02506\\Documents\\Kurs\\Oppgaver\\CSharpBasic\\OppgaveGruppeGit\\MiniBash\\obj\\",
+      "projectPath": "C:\\Users\\borge\\Skole\\Kodehode\\CLI prosjekt test\\MiniBash\\MiniBash.csproj",
+      "packagesPath": "C:\\Users\\borge\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\borge\\Skole\\Kodehode\\CLI prosjekt test\\MiniBash\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Instruktor.P-02506\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\borge\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
