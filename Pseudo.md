@@ -47,4 +47,35 @@ foreach (var file in args)
                         string content = File.ReadAllText(file);
                         Console.Write(content);
                     }
+                }
+```
+### ls
+Lister ut alle filer og mapper i arbeidskatalogen, som vi har satt til myDocuments
+```csharp
+ path ??= Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+            Console.WriteLine($"Listing contents of: {path}");
+```
+Lister ut undermapper:
+```csharp
+var folders = directory.GetDirectories();
+            foreach (var folder in folders)
+```
+
+### mv
+Flytting eller nytt navn til fil. 
+Flytte til samme disk:
+```csharp
+if (Path.GetPathRoot(source) == Path.GetPathRoot(destPath))
+```
+Med direkte move og copy and delete:
+```csharp
+File.Move(source, destPath, true);
+
+using (FileStream input = new FileStream(source, FileMode.Open, FileAccess.Read))
+                    using (FileStream output = new FileStream(destPath, FileMode.Create, FileAccess.Write))
+                    {
+                        input.CopyTo(output);
+                    }
+                    File.Delete(source);
 ```
