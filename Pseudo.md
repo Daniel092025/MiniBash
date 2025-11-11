@@ -79,3 +79,17 @@ using (FileStream input = new FileStream(source, FileMode.Open, FileAccess.Read)
                     }
                     File.Delete(source);
 ```
+
+### cp
+Kopiere en fil til ett nytt sted eller navn
+```csharp
+string source = args[0];
+        string destination = args[1];
+
+        if (!File.Exists(source))
+```
+Bruk av filestream, etterligne cp kommandoen:
+```csharp
+using (FileStream input = new FileStream(source, FileMode.Open, FileAccess.Read))
+            using (FileStream output = new FileStream(destination, FileMode.Create, FileAccess.Write))
+```
