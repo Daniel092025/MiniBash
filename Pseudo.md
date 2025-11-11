@@ -24,3 +24,27 @@ I program:
 Echo.Repeat(args);
                 break;
 ```
+
+### Touch
+Oppretter en ny fil, med feilmelding ved opprettelse uten filnavn
+```csharp
+public static void Run(string path)
+            {
+
+                if (string.IsNullOrEmpty(path)) { Console.WriteLine("Touch mangler filnavn"); return; }
+                File.Create(path).Close();
+            
+            }
+```
+
+### cat 
+Skriver ut innholdet i en fil. Tar input du skriver inn, matcher det mot en path (filvei) og skriver tilbake filen
+```csharp
+foreach (var file in args)
+                {
+                    if (File.Exists(file))
+                    {
+                        string content = File.ReadAllText(file);
+                        Console.Write(content);
+                    }
+```
