@@ -59,15 +59,6 @@ class Program
             string? path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments); // How should we gather the path? User input? 
                 Ls.List(path);
                 break;
-
-            case "head":
-                HEAD.Run(commandArgs);
-                break;
-     
-            case "tail":
-                TAIL.Run(commandArgs);
-                break;
-
             default:
                 Console.WriteLine($"Ukjent kommando: {command}");
                 break;
