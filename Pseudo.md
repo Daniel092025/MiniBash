@@ -93,3 +93,12 @@ Bruk av filestream, etterligne cp kommandoen:
 using (FileStream input = new FileStream(source, FileMode.Open, FileAccess.Read))
             using (FileStream output = new FileStream(destination, FileMode.Create, FileAccess.Write))
 ```
+
+### head
+Viser ett gitt antall linjer fra starten av en fil, her 10.
+```csharp
+string path = args[0];
+            int linesToRead = 10; 
+```
+
+
