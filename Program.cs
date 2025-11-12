@@ -9,6 +9,7 @@ class Program
     {
         while (true)
         {
+            Console.WriteLine("which commands do you want to explore?: \necho \ncp \necho \nhead \nls \nmv \npwd \ntail \ntouch");
             Console.Write("> ");
             string? input = Console.ReadLine();
 
@@ -46,7 +47,7 @@ class Program
             case "cat":
                 CAT.Run(commandArgs);
                 break;
-    // Test om dette fungerer 
+    
             case "tail":
                 TAIL.Run(commandArgs);
                 break;
@@ -56,9 +57,14 @@ class Program
                 break;
 
             case "ls":
-            string? path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments); // How should we gather the path? User input? 
+                string? path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);  
                 Ls.List(path);
                 break;
+
+            case "touch":
+                Touch.Run(args);
+                break;
+
             default:
                 Console.WriteLine($"Ukjent kommando: {command}");
                 break;
