@@ -1,6 +1,6 @@
 # Prosjekt CLI
 
-## Models
+## Models:
 
 ### PWD 
 Skriver tilbake current directory du er i. Så mappen du holder på i
@@ -139,3 +139,25 @@ For eksempel:
 > hello
 
 
+# Refleksjoner
+#### Hva er likhetene og forskjellene mellom de ulike verktøyene?
+- Mange kommandoer tar utgangspunkt i filstrukturen og spesielt Cat har store likheter med head/tail.
+Flere verktøy kalles med forskjellige argumenter.
+
+#### Hvilke deler av koden kunne dere gjenbrukt på tvers?
+- Vi skilte ut path til å være i main program så denne kunne gjenbrukes for de relevante kommandoene.
+Dersom vi hadde planlagt bedre kunne vi brukt det samme formatet for innhenting av argumenter og dermed gjenbrukt dette i større grad. 
+
+#### Hvorfor tror dere disse verktøyene fortsatt er så mye brukt i utvikling, til tross for at vi har moderne IDE-er og GUI-er?
+- De er lite ressurskrevende og kan i høy grad fungere på tvers av operativsystemer. 
+De er enkle og effektive å bruke spesielt for å kunne teste programfunksjonalitet underveis. 
+Man får gjort mange forskjellige operasjoner fra ett sted.
+Moderne GUI 
+
+# Hva vi ville gjort videre:
+- Lagt til hjelpe kommando med info om de forskjellige kommandoene ved dictionary og switch. F.eks cp help
+- Utvidet verktøyene med mulighet for tilleggsargumenter
+- Lagt til flere CLI verktøy
+- Skilt ut menyen i en egen klasse
+- Finpusset det visuelle med styling av tekst eller implementasjon av Spectre.console 😁
+- Ansatt John Kristian som SCRUM-Master 🤓

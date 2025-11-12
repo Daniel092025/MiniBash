@@ -6,15 +6,10 @@ namespace MiniBash.Models
         {
             if (args.Length == 0)
             {
-                // Leser direkte fra tastatur (stdin)
-                string? input;
-                while ((input = Console.ReadLine()) != null)
-                {
-                    Console.WriteLine(input);
-                }
+                Console.WriteLine("Usage: cat <filename>");
+                return;
             }
-            else
-            {
+
                 foreach (var file in args)
                 {
                     if (File.Exists(file))
@@ -27,7 +22,6 @@ namespace MiniBash.Models
                         Console.Error.WriteLine($"cat: {file}: No such file or directory");
                     }
                 }
-            }
-        }
+         }
     }
 }
