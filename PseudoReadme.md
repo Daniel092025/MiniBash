@@ -139,7 +139,7 @@ For eksempel:
 > hello
 
 
-# Refleksjoner
+# Refleksjoner:
 #### Hva er likhetene og forskjellene mellom de ulike verktøyene?
 - Mange kommandoer tar utgangspunkt i filstrukturen og spesielt Cat har store likheter med head/tail.
 Flere verktøy kalles med forskjellige argumenter.
@@ -160,4 +160,5 @@ Moderne GUI
 - Lagt til flere CLI verktøy
 - Skilt ut menyen i en egen klasse
 - Finpusset det visuelle med styling av tekst eller implementasjon av Spectre.console 😁
+
 - Ansatt John Kristian som SCRUM-Master 🤓
